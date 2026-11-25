@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Heróis Burger Vila Velha | A melhor hamburgueria temática</title>
+<meta name="description" content="Heróis Burger Vila Velha: hamburgueria temática de super-heróis na Praia da Costa. Burgers, shakes, drinks e brinquedoteca. Terça a domingo, a partir das 18h.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#0B1230">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Heróis Burger Vila Velha">
+<meta property="og:description" content="A hamburgueria temática de super-heróis da Praia da Costa. Terça a domingo, a partir das 18h.">
+<meta property="og:image" content="img/spiderman.webp">
+<link rel="icon" href="img/logo.webp" type="image/webp">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="loader" id="loader" aria-hidden="true"><img src="img/logo.webp" alt="" width="120" height="120"><span>Carregando heróis...</span></div>
+<div class="progress" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#topo" class="logo">
+      <img class="logo-mark" src="img/logo.webp" alt="" width="40" height="40">
+      Heróis Burger
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+    <nav class="nav">
+      <a href="#marca">A marca</a>
+      <a href="#anatomia">Anatomia</a>
+      <a href="#herois">Os heróis</a>
+      <a href="#quiz">Quiz</a>
+      <a href="#cardapio">Cardápio</a>
+      <a href="#faq">Dúvidas</a>
+      <a href="#visite">Visite</a>
+      <a href="https://www.hubt.com.br/herois-vila-velha/" target="_blank" rel="noopener" class="btn btn-primary">Peça online</a>
+    </nav>
+  </div>
+</header>
+
+<main id="topo">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg" aria-hidden="true"><span></span><span></span><span></span></div>
+  <div class="wrap hero-inner">
+    <span class="pill"><i></i> Praia da Costa · Vila Velha</span>
+    <h1>
+      <span class="line"><span>Burgers</span></span>
+      <span class="line"><span>de outro</span></span>
+      <span class="line accent"><span>universo.</span></span>
+    </h1>
+    <p class="hero-lead">A hamburgueria temática que transforma jantar em aventura. Sabores com nome de herói, drinks e um espaço feito para a família inteira.</p>
+    <div class="hero-actions">
+      <a href="https://www.hubt.com.br/herois-vila-velha/" target="_blank" rel="noopener" class="btn btn-primary">Fazer pedido</a>
+      <a href="#marca" class="btn btn-ghost">Conheça a marca <svg viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6"/></svg></a>
+    </div>
+    <div class="collage" aria-hidden="true">
+      <img class="c1" src="img/hulk.webp" alt="" width="900" height="640">
+      <img class="c2" src="img/spiderman.webp" alt="" width="900" height="640">
+      <img class="c3" src="img/thor.webp" alt="" width="900" height="640">
+    </div>
+    <div class="seal" aria-hidden="true">
+      <svg viewBox="0 0 200 200"><defs><path id="circ" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs>
+        <text><textPath href="#circ">HAMBURGUERIA TEMÁTICA • SUPER HERÓIS • PRAIA DA COSTA • </textPath></text></svg>
+      <img src="img/logo.webp" alt="" width="84" height="84">
+    </div>
+    <div class="scroll-hint" aria-hidden="true"><span></span></div>
+  </div>
+</section>
+
+<!-- LETREIRO -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Hulk</span><i>⚡</i><span>Thor</span><i>⚡</i><span>Spider-Man</span><i>⚡</i><span>Wandinha</span><i>⚡</i><span>Homem Morcego</span><i>⚡</i><span>Tony Stark</span><i>⚡</i><span>Viúva Negra</span><i>⚡</i><span>Baby Yoda</span><i>⚡</i>
+    <span>Hulk</span><i>⚡</i><span>Thor</span><i>⚡</i><span>Spider-Man</span><i>⚡</i><span>Wandinha</span><i>⚡</i><span>Homem Morcego</span><i>⚡</i><span>Tony Stark</span><i>⚡</i><span>Viúva Negra</span><i>⚡</i><span>Baby Yoda</span><i>⚡</i>
+  </div>
+</div>
+
+<!-- A MARCA -->
+<section id="marca">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">A marca</span>
+      <h2 class="section-title">Mais que um hambúrguer. <em>Uma história.</em></h2>
+      <p class="section-lead">A Heróis Burger nasceu da paixão por cultura pop. Aqui cada lanche é uma homenagem aos personagens que fazem parte da nossa vida, servido com qualidade, ambiente descontraído e muita personalidade.</p>
+    </div>
+
+    <div class="bento">
+      <article class="tile tile-big reveal">
+        <span class="tile-num" data-count="51500" data-suffix="+">0</span>
+        <h3>Fãs conectados</h3>
+        <p>Uma comunidade apaixonada que acompanha a Heróis no Instagram e se encontra na casa toda semana.</p>
+      </article>
+      <article class="tile tile-red reveal">
+        <svg viewBox="0 0 24 24"><path d="M3 11a9 7 0 0 1 18 0zM3 15h18M5 19h14"/></svg>
+        <h3>Burgers autorais</h3>
+        <p>Receitas criadas para contar a história de cada herói.</p>
+      </article>
+      <article class="tile reveal">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.5-7 8-7s8 3 8 7"/></svg>
+        <h3>Para todas as idades</h3>
+        <p>Do menu Kids à brinquedoteca, a casa é pensada para a família.</p>
+      </article>
+      <article class="tile tile-yellow reveal">
+        <svg viewBox="0 0 24 24"><path d="M12 3c3 4 6 6 6 10a6 6 0 0 1-12 0c0-4 3-6 6-10z"/></svg>
+        <h3>Opções para todos</h3>
+        <p>Vegana, fit, frango, camarão e muito mais.</p>
+      </article>
+      <article class="tile tile-wide reveal">
+        <svg viewBox="0 0 24 24"><path d="M6 3h12l-2 9a4 4 0 0 1-8 0zM12 16v5M8 21h8"/></svg>
+        <h3>Shakes e drinks temáticos</h3>
+        <p>Milk shakes com marshmallow, chantilly e Nutella, e drinks que viram atração da mesa.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- NÚMEROS -->
+<div class="numbers">
+  <div class="wrap numbers-row">
+    <div class="num reveal"><strong data-count="17">0</strong><span>burgers com nome de herói</span></div>
+    <div class="num reveal"><strong data-count="12">0</strong><span>milk shakes temáticos</span></div>
+    <div class="num reveal"><strong data-count="11">0</strong><span>drinks clássicos e temáticos</span></div>
+    <div class="num reveal"><strong data-count="7">0</strong><span>petiscos para dividir</span></div>
+  </div>
+</div>
+
+<!-- ANATOMIA -->
+<section id="anatomia" class="anatomia">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">Aprenda com a gente</span>
+      <h2 class="section-title">A anatomia de um <em>herói.</em></h2>
+      <p class="section-lead">Todo burger da casa é montado em camadas. Veja o Hulk por dentro e entenda o que cada ingrediente faz pelo sabor. Clique em cada camada.</p>
+    </div>
+    <div class="anat-grid">
+      <div class="anat-photo reveal">
+        <img src="img/hulk.webp" alt="Hambúrguer Hulk" loading="lazy" width="900" height="640">
+        <span class="anat-chip" id="anatChip">Camada 1</span>
+      </div>
+      <ol class="anat-list reveal" id="anatList">
+        <li class="is-active" data-t="Camada 1"><button type="button"><b>Pão amanteigado</b><span>A base e o topo. O pão amanteigado é macio e levemente adocicado, e aguenta o suco do burger sem desmanchar.</span></button></li>
+        <li data-t="Camada 2"><button type="button"><b>Maionese especial</b><span>O molho dá cremosidade e equilibra a intensidade da carne e do bacon.</span></button></li>
+        <li data-t="Camada 3"><button type="button"><b>Queijo prato derretido</b><span>Derrete sobre a carne quente, cobre tudo e une os sabores. No Hulk, é bastante.</span></button></li>
+        <li data-t="Camada 4"><button type="button"><b>Dois blends de 160g</b><span>O coração do herói. São dois discos de carne de 160g cada, o que faz do Hulk um dos nossos burgers mais fortes.</span></button></li>
+        <li data-t="Camada 5"><button type="button"><b>Muito bacon</b><span>Crocância e defumado para contrastar com o pão macio e a carne suculenta.</span></button></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- OS HERÓIS -->
+<section id="herois" class="herois">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">Os heróis da casa</span>
+      <h2 class="section-title">Escolha o seu <em>personagem.</em></h2>
+      <p class="section-lead">Um universo de sabores. Passe o mouse (ou toque) para ver quem é quem.</p>
+    </div>
+  </div>
+
+  <div class="rail" tabindex="0" aria-label="Lista de personagens">
+    <article class="hero-card">
+      <img src="img/hulk.webp" alt="Hambúrguer Hulk" loading="lazy" width="900" height="640">
+      <div class="hc-body"><span class="hc-tag">Burger</span><h3>Hulk</h3><p>Dois blends, muito bacon e queijo. O Hulk simplesmente esmaga.</p></div>
+    </article>
+    <article class="hero-card">
+      <img src="img/thor.webp" alt="Hambúrguer Thor" loading="lazy" width="900" height="640">
+      <div class="hc-body"><span class="hc-tag">Burger</span><h3>Thor</h3><p>O Deus do Trovão mandou: bacon ao forno, cheddar e costela.</p></div>
+    </article>
+    <article class="hero-card">
+      <img src="img/spiderman.webp" alt="Hambúrguer Spider-Man" loading="lazy" width="900" height="640">
+      <div class="hc-body"><span class="hc-tag">Burger</span><h3>Spider-Man</h3><p>O herói da vizinhança em versão exclusiva, com cheddar e bacon.</p></div>
+    </article>
+    <article class="hero-card">
+      <img src="img/wandinha.webp" alt="Hambúrguer Wandinha" loading="lazy" width="900" height="640">
+      <div class="hc-body"><span class="hc-tag">Burger</span><h3>Wandinha</h3><p>Pão australiano, queijo minas e geleia. Sombria e deliciosa.</p></div>
+    </article>
+    <article class="hero-card">
+      <img src="img/aqua.webp" alt="Hambúrguer Aqua" loading="lazy" width="900" height="640">
+      <div class="hc-body"><span class="hc-tag">Burger</span><h3>Aqua</h3><p>Direto de Atlantis: steak Angus, camarão e cream cheese.</p></div>
+    </article>
+    <article class="hero-card">
+      <img src="img/morcego.webp" alt="Hambúrguer Homem Morcego" loading="lazy" width="900" height="640">
+      <div class="hc-body"><span class="hc-tag">Burger</span><h3>Homem Morcego</h3><p>Saindo da escuridão com queijo derretido e molho barbecue.</p></div>
+    </article>
+    <article class="hero-card">
+      <img src="img/octopus.webp" alt="Hambúrguer Octopus" loading="lazy" width="900" height="640">
+      <div class="hc-body"><span class="hc-tag">Burger</span><h3>Octopus</h3><p>Angus, cebola caramelizada, tentáculos de bacon e muito cheddar.</p></div>
+    </article>
+    <article class="hero-card">
+      <img src="img/tonystark.webp" alt="Hambúrguer Tony Stark" loading="lazy" width="900" height="640">
+      <div class="hc-body"><span class="hc-tag">Burger</span><h3>Tony Stark</h3><p>Gênio, bilionário, playboy: Angus, molho Billy Jack e farofa de bacon.</p></div>
+    </article>
+    <article class="hero-card">
+      <img src="img/viuva.webp" alt="Hambúrguer Viúva Negra" loading="lazy" width="900" height="640">
+      <div class="hc-body"><span class="hc-tag">Burger</span><h3>Viúva Negra</h3><p>Sofisticado e implacável, com blend de frango empanado.</p></div>
+    </article>
+  </div>
+
+  <div class="wrap">
+    <div class="menu-cta reveal">
+      <p>Quer ver o cardápio completo?</p>
+      <a href="https://www.hubt.com.br/herois-vila-velha/" target="_blank" rel="noopener" class="btn btn-outline">Abrir cardápio e pedir</a>
+    </div>
+  </div>
+</section>
+
+<!-- QUIZ -->
+<section id="quiz" class="quiz">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">Quiz</span>
+      <h2 class="section-title">Qual herói é <em>você?</em></h2>
+      <p class="section-lead">Responda 3 perguntas rápidas e descubra o burger que combina com o seu perfil.</p>
+    </div>
+    <div class="quiz-box reveal" id="quizBox">
+      <div class="quiz-progress"><span id="quizBar"></span></div>
+      <div id="quizStage"></div>
+    </div>
+  </div>
+</section>
+
+<!-- CARDÁPIO POR CATEGORIAS -->
+<section id="cardapio" class="menu">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">Cardápio</span>
+      <h2 class="section-title">Um universo <em>inteiro</em> de sabores.</h2>
+      <p class="section-lead">Escolha uma categoria para ver o que a casa oferece. Para valores e pedidos, use o site de pedidos.</p>
+    </div>
+    <div class="tabs reveal" role="tablist">
+      <button class="tab is-active" role="tab" data-tab="burgers">Burgers</button>
+      <button class="tab" role="tab" data-tab="petiscos">Petiscos</button>
+      <button class="tab" role="tab" data-tab="shakes">Milk shakes</button>
+      <button class="tab" role="tab" data-tab="drinks">Drinks</button>
+      <button class="tab" role="tab" data-tab="doces">Sobremesas</button>
+      <button class="tab" role="tab" data-tab="bebidas">Bebidas</button>
+    </div>
+    <div class="panels reveal">
+      <div class="panel is-active" id="tab-burgers">
+        <p class="panel-note">Pães amanteigados, blends de 120g ou 160g, steak Angus e opções vegana e fit.</p>
+        <ul class="chips"><li>Wandinha</li><li>Spider-Man</li><li>Thor</li><li>Bruxo</li><li>Hulk</li><li>Homem Morcego</li><li>Baby Yoda (kids)</li><li>Viúva Negra</li><li>Octopus</li><li>Aqua</li><li>O Mais Rápido</li><li>Tony Stark</li><li>Hera Vegan</li><li>Maravilha Fit</li><li>X-Salada</li><li>Princesas</li><li>Banana-Man</li></ul>
+      </div>
+      <div class="panel" id="tab-petiscos">
+        <p class="panel-note">Para dividir na mesa, com batatas, anéis de cebola, nuggets e coxinhas.</p>
+        <ul class="chips"><li>Batata Heróis da Galáxia</li><li>Batata Heróis</li><li>Batata Reverso</li><li>Batata Rocket</li><li>Dr. Strange Onion</li><li>Baby Vision Nuggets</li><li>Coxinhas do Infinito</li></ul>
+      </div>
+      <div class="panel" id="tab-shakes">
+        <p class="panel-note">Shakes cremosos com Nutella, chantilly, marshmallow e muito mais.</p>
+        <ul class="chips"><li>Stitch</li><li>Angel</li><li>Mickey</li><li>Minnie</li><li>Unicórnio</li><li>Spider</li><li>A Coisa</li><li>Quinn</li><li>Loki</li><li>Falcão</li><li>Pantera</li><li>Venom</li></ul>
+      </div>
+      <div class="panel" id="tab-drinks">
+        <p class="panel-note">Drinks temáticos autorais e os clássicos de sempre.</p>
+        <ul class="chips"><li>Cavaleiro da Lua</li><li>IT, o Drink</li><li>Dead Drink</li><li>Bubble Drink</li><li>Soda dos Elfos</li><li>Caipirinha</li><li>Caipivodka</li><li>Moscow Mule</li><li>Aperol Spritz</li><li>Mojito</li><li>Lagoa Azul</li></ul>
+      </div>
+      <div class="panel" id="tab-doces">
+        <p class="panel-note">Para fechar a noite com chave de ouro.</p>
+        <ul class="chips"><li>Baby Groot (mini churros com Nutella)</li><li>Homem Formiga Brownie</li></ul>
+      </div>
+      <div class="panel" id="tab-bebidas">
+        <p class="panel-note">Sucos, refrigerantes, águas e cervejas.</p>
+        <ul class="chips"><li>Sucos naturais</li><li>Limonada Suíça</li><li>Refrigerantes</li><li>Del Valle</li><li>H2O</li><li>Água com e sem gás</li><li>Corona</li><li>Heineken</li></ul>
+      </div>
+    </div>
+    <div class="menu-cta reveal">
+      <p>Pronto para escolher?</p>
+      <a href="https://www.hubt.com.br/herois-vila-velha/" target="_blank" rel="noopener" class="btn btn-outline">Abrir cardápio e pedir</a>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIÊNCIA -->
+<section id="experiencia" class="experiencia">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker">A experiência</span>
+      <h2 class="section-title">Uma noite de <em>herói</em> em três atos.</h2>
+    </div>
+    <ol class="steps">
+      <li class="step reveal">
+        <span class="step-n">01</span>
+        <h3>Entre no universo</h3>
+        <p>Ambiente temático, música e decoração que lembram seus filmes e séries favoritos.</p>
+      </li>
+      <li class="step reveal">
+        <span class="step-n">02</span>
+        <h3>Escolha seu herói</h3>
+        <p>Burgers, petiscos, shakes e drinks, tudo com nome e história. Tem opção para todo mundo da mesa.</p>
+      </li>
+      <li class="step reveal">
+        <span class="step-n">03</span>
+        <h3>Divirta-se</h3>
+        <p>Brinquedoteca para a criançada e papo livre para os adultos. Sem taxa de serviço.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="faq">
+  <div class="wrap faq-grid">
+    <div class="reveal">
+      <span class="kicker">Dúvidas</span>
+      <h2 class="section-title">Perguntas <em>frequentes.</em></h2>
+      <p class="section-lead">O essencial para planejar a sua visita. Não achou o que procura? Chame no WhatsApp.</p>
+      <a href="https://wa.me/5527997514754" target="_blank" rel="noopener" class="btn btn-primary faq-btn">Falar no WhatsApp</a>
+    </div>
+    <div class="acc reveal">
+      <details open><summary>Qual o horário de funcionamento?</summary><p>Funcionamos de terça a domingo, a partir das 18h.</p></details>
+      <details><summary>Onde fica a Heróis Burger?</summary><p>Na Avenida Henrique Moscoso, 90, Praia da Costa, Vila Velha/ES (CEP 29101-330).</p></details>
+      <details><summary>Como faço meu pedido?</summary><p>Pelo nosso site de pedidos, é só abrir o cardápio, escolher e finalizar. Também dá para tirar dúvidas pelo WhatsApp (27) 99751-4754.</p></details>
+      <details><summary>Cobram taxa de serviço?</summary><p>Não. Não cobramos a taxa de serviço de 10%.</p></details>
+      <details><summary>Tem opção para crianças?</summary><p>Sim! Temos o combo Heróis Kids, com hambúrguer, batata, bebida e brinde surpresa, além do Baby Yoda Burger. A casa também tem brinquedoteca.</p></details>
+      <details><summary>Tem opção vegana ou mais leve?</summary><p>Temos o Hera Vegan Burger (lentilha) e o Maravilha Fit, para quem prefere algo mais leve.</p></details>
+      <details><summary>Tem drinks com e sem álcool?</summary><p>Sim. Temos drinks temáticos e clássicos, além de sucos, refrigerantes, águas, milk shakes e a Soda dos Elfos, sem álcool.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- VISITE -->
+<section class="visite" id="visite">
+  <div class="wrap visite-grid">
+    <div class="reveal">
+      <span class="kicker">Visite</span>
+      <h2 class="section-title">Venha nos <em>encontrar.</em></h2>
+      <ul class="info-list">
+        <li>
+          <svg viewBox="0 0 24 24"><path d="M12 21s7-6.5 7-12a7 7 0 0 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>
+          <div>Avenida Henrique Moscoso, 90<small>Praia da Costa · Vila Velha/ES · CEP 29101-330</small></div>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          <div>Terça a domingo<small>A partir das 18h</small></div>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>
+          <div><a href="https://wa.me/5527997514754" target="_blank" rel="noopener">(27) 99751-4754</a><small>WhatsApp</small></div>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg>
+          <div><a href="https://www.instagram.com/heroisburgervilavelha/" target="_blank" rel="noopener">@heroisburgervilavelha</a><small>Instagram</small></div>
+        </li>
+      </ul>
+    </div>
+    <div class="map-box reveal">
+      <iframe title="Mapa da Heróis Burger Vila Velha" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps?q=Avenida+Henrique+Moscoso+90+Praia+da+Costa+Vila+Velha+ES&output=embed"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <div class="wrap reveal">
+    <h2>Bateu a fome de herói?</h2>
+    <p>Peça pelo site e receba em casa, ou chame no WhatsApp para tirar dúvidas.</p>
+    <div class="cta-actions">
+      <a href="https://www.hubt.com.br/herois-vila-velha/" target="_blank" rel="noopener" class="btn btn-primary">Fazer pedido online</a>
+      <a href="https://wa.me/5527997514754?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Her%C3%B3is%20Burger." target="_blank" rel="noopener" class="btn btn-outline">Chamar no WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot-grid">
+    <div class="foot-brand">
+      <a href="#topo" class="logo"><img class="logo-mark" src="img/logo.webp" alt="" width="40" height="40">Heróis Burger</a>
+      <p>A melhor hamburgueria temática de Vila Velha. Burgers, shakes e drinks com nome de herói.</p>
+    </div>
+    <div>
+      <h4>Navegue</h4>
+      <a href="#marca">A marca</a><a href="#anatomia">Anatomia</a><a href="#herois">Os heróis</a><a href="#quiz">Quiz</a><a href="#cardapio">Cardápio</a><a href="#faq">Dúvidas</a>
+    </div>
+    <div>
+      <h4>Visite</h4>
+      <span>Av. Henrique Moscoso, 90</span><span>Praia da Costa, Vila Velha/ES</span><span>Terça a domingo, a partir das 18h</span>
+    </div>
+    <div>
+      <h4>Fale com a gente</h4>
+      <a href="https://wa.me/5527997514754" target="_blank" rel="noopener">WhatsApp (27) 99751-4754</a>
+      <a href="https://www.instagram.com/heroisburgervilavelha/" target="_blank" rel="noopener">@heroisburgervilavelha</a>
+      <a href="https://www.hubt.com.br/herois-vila-velha/" target="_blank" rel="noopener">Pedir online</a>
+    </div>
+  </div>
+  <div class="wrap foot-bottom"><span>© Heróis Burger Vila Velha. Todos os direitos reservados.</span><span>Site de apresentação</span></div>
+</footer>
+
+<a href="#topo" class="to-top" id="toTop" aria-label="Voltar ao topo"><svg viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></svg></a>
+
+<a href="https://wa.me/5527997514754" class="wa-float" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+<FilesMatch "\.(txt|ps1|local\..*)$">
+  Require all denied
+</FilesMatch>
