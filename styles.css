@@ -418,3 +418,15 @@ section[id]{scroll-margin-top:70px}
 .loader img{border-radius:26px}
 .seal img{border-radius:14px;width:70px;height:70px}
 @media(max-width:900px){.seal img{width:48px;height:48px;border-radius:10px}}
+
+/* Crédito do desenvolvedor (última linha do rodapé) */
+.credito-dev{display:flex;justify-content:center;padding:18px 16px 0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --griffo-tinta:#FFFFFF;
+  --griffo-destaque:#C9922B}
+.credito-dev a{display:inline-flex;align-items:center;gap:12px;font-size:12px;color:var(--ice-mid);text-decoration:none}
+.credito-dev span{opacity:.75;transition:opacity .2s ease}
+.credito-dev a:hover span,.credito-dev a:focus-visible span{opacity:1}
+.credito-dev svg{display:block;height:32px;width:auto;flex:none}
+@media(max-width:480px){.credito-dev svg{height:28px}}
+@media(max-width:900px){.site-footer{padding-bottom:90px}}
+.foot-bottom{padding-right:80px}
