@@ -430,3 +430,11 @@ section[id]{scroll-margin-top:70px}
 @media(max-width:480px){.credito-dev svg{height:28px}}
 @media(max-width:900px){.site-footer{padding-bottom:90px}}
 .foot-bottom{padding-right:80px}
+
+/* Crédito discreto: uma cor só, apagada, como no padrão dos outros sites */
+.credito-dev{--griffo-tinta:var(--ice-mid);--griffo-destaque:var(--ice-mid);padding:14px 16px 0}
+.credito-dev a{opacity:.7;transition:opacity .2s ease;color:var(--ice-mid)}
+.credito-dev a:hover,.credito-dev a:focus-visible{opacity:1}
+.credito-dev span{opacity:1}
+.credito-dev svg{height:28px}
+@media(max-width:480px){.credito-dev svg{height:24px}}
