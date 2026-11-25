@@ -442,3 +442,7 @@ section[id]{scroll-margin-top:70px}
 /* Menu e logo sem quebra de linha em telas médias */
 .logo,.nav a{white-space:nowrap}
 @media(max-width:1100px) and (min-width:901px){.nav{gap:16px}.nav a:not(.btn){font-size:.88rem}.nav .btn{padding:9px 16px}}
+
+/* Nome completo da marca: "Vila Velha" em letras pequenas sob o nome */
+.logo-text{display:flex;flex-direction:column;line-height:1}
+.logo-text small{font-family:'Work Sans',sans-serif;font-size:.6rem;letter-spacing:.24em;text-transform:uppercase;color:var(--yellow);font-weight:600;margin-top:4px}
